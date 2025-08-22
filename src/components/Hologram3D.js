@@ -285,7 +285,7 @@ const Hologram3DMap = ({ selectedDistrict, onDistrictSelect, isPlaying, onPlayTo
                       ${isSelected ? `0 0 50px #FFD700, 0 0 100px #FFD700` : ''}
                     `,
                     border: isSelected ? '3px solid #FFD700' : '2px solid rgba(255,255,255,0.2)',
-                    height: `${district.height}px`,
+                    // height: `${district.height}px`,
                     animation: district.pulse ? 'pulse 2s infinite' : 'none'
                   }}
                 >
